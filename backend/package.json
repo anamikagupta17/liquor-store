@@ -1,0 +1,17 @@
+{
+  "name": "liquor-store",
+  "version": "1.0.0",
+  "description": "Liquor Store Backend API Management",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anamika Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  }
+}
