@@ -193,7 +193,7 @@ const CreateProducts = () => {
                   </div>
                 </div>
 
-                <div className="mb-4.5">
+                {/* <div className="mb-4.5">
                   <label className="mb-2.5 block text-black dark:text-white">Barcode</label>
                   <input value={barcode} onChange={(e) => setBarcode(e.target.value)} type="text" placeholder="Barcode or UPC" className="w-full rounded border-[1.5px] border-stroke py-3 px-5" />
                 </div>
@@ -201,7 +201,7 @@ const CreateProducts = () => {
                 <div className="mb-4.5">
                   <label className="mb-2.5 block text-black dark:text-white">Supplier</label>
                   <input value={supplier} onChange={(e) => setSupplier(e.target.value)} type="text" placeholder="Supplier name" className="w-full rounded border-[1.5px] border-stroke py-3 px-5" />
-                </div>
+                </div> */}
 
                 <div className="mb-4.5">
                   <label className="mb-2.5 block text-black dark:text-white">Tags (comma separated)</label>

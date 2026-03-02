@@ -16,7 +16,8 @@ import { ProtectedRoute } from "./ProtectedRoute";
 import PageTitle from "../components/PageTitle";
 
 import Dashboard from "../pages/Admin/ECommerce";
-import Typess from "../pages/Admin/Types";
+import Categories from "../pages/Admin/Categories";
+import Brands from "../pages/Admin/Brands";
 import CreateProducts from "../pages/Admin/CreateProducts";
 import ProductsAdmin from "../pages/Admin/Products"; 
 import Settings from "../pages/Admin/Settings";
@@ -78,7 +79,9 @@ export function AppRouter() {
             }
           />
 
-          <Route path="types" element={<Typess />} />
+          <Route path="category" element={<Categories />} />
+
+          <Route path="brands" element={<Brands />} />
 
           <Route path="create-product" element={<CreateProducts />} />
 

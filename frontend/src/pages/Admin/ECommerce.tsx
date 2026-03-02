@@ -1,7 +1,6 @@
 import React from 'react';
 import CardDataStats from '../../components/CardDataStats';
-import MapOne from '../../components/Maps/MapOne';
-import TableOne from '../../components/Tables/TableOne';
+import TableOne from '../../components/Tables/TableTwo';
 
 const ECommerce: React.FC = () => {
   return (
